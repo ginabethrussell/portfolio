@@ -1,0 +1,123 @@
+/* portfolio color palette  
+Color 1: #fe6584
+Color 2: #f1faee
+Color 3: #a8dadc
+Color 4: #457b9d
+Color 5: #2f2e41
+*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;700&display=swap");
+
+html {
+    font-size: 62.5%;
+}
+body {
+    color:#2f2e41;
+    box-sizing: border-box;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banner-text {
+    width: 80%;
+}
+footer {
+    min-height: 10vh;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #a8dadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    width: 75px;
+    background-color: #a8dadc;
+    color: #457b9d;
+    font-size: 1.5rem;
+    border: 2px solid #2f2e41;
+    margin: 0;
+    padding: 5px 8px;
+    text-decoration: none;
+    border-right: none;
+}
+nav a:last-child {
+    border-right: 2px solid #2f2e41;
+}
+nav a:hover {
+    background-color: #2f2e41;
+    color: #ffffff;
+}
+header p {
+    font-size: 1.6rem;
+}
+#banner-img {
+    width: 100%;
+    border-top: 4px solid #fe6584;
+    border-bottom: 4px solid #fe6584;
+}
+header img {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+} 
+main {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+section {
+    margin-top: 20px;
+    width: 18%;
+    border: 2px solid #457b9d;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+section:first-child{
+    margin-left: 10px;
+}
+section.project-description{
+    width: 18%;  
+    font-size: 1.6rem;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+footer {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #a8dadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+footer button {
+    background-color: #f1faee;
+    color: #2f2e41;
+    border: 1px solid #2f2e41;
+    padding: 8px;
+}  
